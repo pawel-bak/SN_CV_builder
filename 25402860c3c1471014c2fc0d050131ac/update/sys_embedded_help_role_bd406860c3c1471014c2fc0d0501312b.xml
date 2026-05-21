@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1780981_cv_pro_0.user" name="x_1780981_cv_pro_0.user">f5406860c3c1471014c2fc0d05013129</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-20 21:53:04</sys_created_on>
+        <sys_id>bd406860c3c1471014c2fc0d0501312b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f5406860c3c1471014c2fc0d05013129</sys_name>
+        <sys_package display_value="CV Processing App" source="x_1780981_cv_pro_0">25402860c3c1471014c2fc0d050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CV Processing App">25402860c3c1471014c2fc0d050131ac</sys_scope>
+        <sys_update_name>sys_embedded_help_role_bd406860c3c1471014c2fc0d0501312b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-20 21:53:04</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

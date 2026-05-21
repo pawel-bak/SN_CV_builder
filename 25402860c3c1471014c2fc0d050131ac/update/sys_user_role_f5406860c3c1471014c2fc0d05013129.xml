@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Default user role</description>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id>Tkc5+84I6asmAQBeDgYoeATannQ2/Y13SI7g4eHWl0o=</federated_id>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1780981_cv_pro_0.user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-20 21:53:04</sys_created_on>
+        <sys_id>f5406860c3c1471014c2fc0d05013129</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1780981_cv_pro_0.user</sys_name>
+        <sys_package display_value="CV Processing App" source="x_1780981_cv_pro_0">25402860c3c1471014c2fc0d050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CV Processing App">25402860c3c1471014c2fc0d050131ac</sys_scope>
+        <sys_update_name>sys_user_role_f5406860c3c1471014c2fc0d05013129</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-20 21:53:04</sys_updated_on>
+    </sys_user_role>
+</record_update>
