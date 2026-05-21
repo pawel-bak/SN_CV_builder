@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Existing</local_or_existing>
+        <name>x_1780981_cv_pro_0_cv_profile</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-20 22:02:37</sys_created_on>
+        <sys_id>bd7260a4c3c1471014c2fc0d0501313d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1780981_cv_pro_0_cv_profile</sys_name>
+        <sys_package display_value="CV Processing App" source="x_1780981_cv_pro_0">25402860c3c1471014c2fc0d050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CV Processing App">25402860c3c1471014c2fc0d050131ac</sys_scope>
+        <sys_update_name>sys_security_acl_bd7260a4c3c1471014c2fc0d0501313d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-20 22:02:37</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CV Processing App">25402860c3c1471014c2fc0d050131ac</application>
+        <file_path/>
+        <instance_id>7b693ad33b9c0fd0677f04e0b5e45a62</instance_id>
+        <instance_name>dev388187</instance_name>
+        <name>sys_security_acl_bd7260a4c3c1471014c2fc0d0501313d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Existing</local_or_existing><name>x_1780981_cv_pro_0_cv_profile</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-20 22:02:37</sys_created_on><sys_id>bd7260a4c3c1471014c2fc0d0501313d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1780981_cv_pro_0_cv_profile</sys_name><sys_package display_value="CV Processing App" source="x_1780981_cv_pro_0">25402860c3c1471014c2fc0d050131ac</sys_package><sys_policy/><sys_scope display_value="CV Processing App">25402860c3c1471014c2fc0d050131ac</sys_scope><sys_update_name>sys_security_acl_bd7260a4c3c1471014c2fc0d0501313d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-20 22:02:37</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-668795869</payload_hash>
+        <record_name>x_1780981_cv_pro_0_cv_profile</record_name>
+        <reverted_from/>
+        <source>ad406860c3c1471014c2fc0d05013114</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-20 22:02:37</sys_created_on>
+        <sys_id>b17260a4c3c1471014c2fc0d05013143</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e4769816e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-20 22:02:37</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>717260a4c9c14710777c7d8ecddf6e42</update_guid>
+        <update_guid_history>717260a4c9c14710777c7d8ecddf6e42:-668795869</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-21 08:14:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>04a7783763da467d80e896fe23f4ae61</sys_id>
+        <sys_metadata>bd7260a4c3c1471014c2fc0d0501313d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1780981_cv_pro_0_cv_profile</sys_name>
+        <sys_package display_value="CV Processing App" source="x_1780981_cv_pro_0">25402860c3c1471014c2fc0d050131ac</sys_package>
+        <sys_parent display_value="">0072ac64c3c1471014c2fc0d050131ca</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CV Processing App">25402860c3c1471014c2fc0d050131ac</sys_scope>
+        <sys_scope_delete display_value="">26f466e8f335438c889efdd0fb580ba4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_bd7260a4c3c1471014c2fc0d0501313d</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_bd7260a4c3c1471014c2fc0d0501313d">b17260a4c3c1471014c2fc0d05013143</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-21 08:14:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

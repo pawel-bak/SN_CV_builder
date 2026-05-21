@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="cdce6ea8c305871014c2fc0d0501314f" label="CV Education" max_length="40" name="x_1780981_cv_pro_0_cv_education" type="collection">
+        <element label="Degree Title" max_length="250" name="degree_title" type="string"/>
+        <element label="Institution" max_length="250" name="institution" type="string"/>
+        <element label="Profile" max_length="32" name="cv_profile" reference="x_1780981_cv_pro_0_cv_profile" type="reference"/>
+        <element label="Graduation Year" max_length="4" name="graduation_year" type="integer"/>
+        <index name="index">
+            <element name="cv_profile"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="b9ceaea8c305871014c2fc0d050131c4" label="CV Language" max_length="40" name="x_1780981_cv_pro_0_cv_language" type="collection">
+        <element label="Language" max_length="100" name="language" type="string"/>
+        <element label="Proficiency Level" max_length="100" name="proficiency_level" type="string"/>
+        <element label="Profile" max_length="32" name="cv_profile" reference="x_1780981_cv_pro_0_cv_profile" type="reference"/>
+        <index name="index">
+            <element name="cv_profile"/>
+        </index>
+    </element>
+</database>

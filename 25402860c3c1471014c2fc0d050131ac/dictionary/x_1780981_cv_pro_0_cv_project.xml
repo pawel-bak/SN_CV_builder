@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="acce2ea8c305871014c2fc0d05013175" label="CV Project" max_length="40" name="x_1780981_cv_pro_0_cv_project" type="collection">
+        <element label="Project Title" max_length="250" name="project_title" type="string"/>
+        <element label="Profile" max_length="32" name="cv_profile" reference="x_1780981_cv_pro_0_cv_profile" type="reference"/>
+        <element label="Project Description" max_length="4000" name="project_description" type="string"/>
+        <element label="Client Name" max_length="150" name="client_name" type="string"/>
+        <index name="index">
+            <element name="cv_profile"/>
+        </index>
+    </element>
+</database>

@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="4872ac64c3c1471014c2fc0d050131c7" label="CV Profile" max_length="40" name="x_1780981_cv_pro_0_cv_profile" type="collection"/>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="93be22a8c305871014c2fc0d05013185" label="CV Profile" max_length="40" name="x_1780981_cv_pro_0_cv_profile" type="collection">
+        <element label="Last Name" max_length="100" name="last_name" type="string"/>
+        <element label="Hobbies &amp; Interests" max_length="1000" name="hobbies_interests" type="string"/>
+        <element label="RAW Data" max_length="10000" name="raw_data" type="string"/>
+        <element label="First Name" max_length="100" name="first_name" type="string"/>
+        <element label="Professional Summary" max_length="4000" name="professional_summary" type="string"/>
+        <element label="Title" max_length="150" name="title" type="string"/>
+        <element label="Location" max_length="150" name="location" type="string"/>
+    </element>
 </database>

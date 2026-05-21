@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="d9ce6ea8c305871014c2fc0d050131f7" label="CV Certification" max_length="40" name="x_1780981_cv_pro_0_cv_certification" type="collection">
+        <element label="Certification Name" max_length="250" name="certification_name" type="string"/>
+        <element label="Year Issued" max_length="4" name="year_issued" type="integer"/>
+        <element label="Profile" max_length="32" name="cv_profile" reference="x_1780981_cv_pro_0_cv_profile" type="reference"/>
+        <element label="Vendor" max_length="100" name="vendor" type="string"/>
+        <index name="index">
+            <element name="cv_profile"/>
+        </index>
+    </element>
+</database>

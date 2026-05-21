@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="47ce62e8c305871014c2fc0d050131f9" label="CV Tech Environment" max_length="40" name="x_1780981_cv_pro_0_cv_tech_env" type="collection">
+        <element label="Experience" max_length="32" name="cv_experience" reference="x_1780981_cv_pro_0_cv_experience" type="reference"/>
+        <element label="Technologies Used" max_length="2000" name="technologies_used" type="string"/>
+        <element label="Technology Category" max_length="150" name="technology_category" type="string"/>
+        <index name="index">
+            <element name="cv_experience"/>
+        </index>
+    </element>
+</database>

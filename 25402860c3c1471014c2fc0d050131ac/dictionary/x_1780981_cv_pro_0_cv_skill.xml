@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="8eceeea8c305871014c2fc0d05013186" label="CV Skill" max_length="40" name="x_1780981_cv_pro_0_cv_skill" type="collection">
+        <element label="Skill Section" max_length="150" name="skill_section" type="string"/>
+        <element label="Profile" max_length="32" name="cv_profile" reference="x_1780981_cv_pro_0_cv_profile" type="reference"/>
+        <element label="Category" max_length="150" name="category" type="string"/>
+        <element label="Details" max_length="2000" name="details" type="string"/>
+        <index name="index">
+            <element name="cv_profile"/>
+        </index>
+    </element>
+</database>

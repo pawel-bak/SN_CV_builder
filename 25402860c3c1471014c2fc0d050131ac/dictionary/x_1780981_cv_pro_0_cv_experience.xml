@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="2ace22e8c305871014c2fc0d0501314a" label="CV Experience" max_length="40" name="x_1780981_cv_pro_0_cv_experience" type="collection">
+        <element label="Company" max_length="150" name="company" type="string"/>
+        <element label="Profile" max_length="32" name="cv_profile" reference="x_1780981_cv_pro_0_cv_profile" type="reference"/>
+        <element label="Short Summary" max_length="4000" name="short_summary" type="string"/>
+        <element label="Role Title" max_length="150" name="role_title" type="string"/>
+        <element label="End Date" max_length="40" name="end_date" type="string"/>
+        <element label="Start Date" max_length="40" name="start_date" type="string"/>
+        <index name="index">
+            <element name="cv_profile"/>
+        </index>
+    </element>
+</database>
